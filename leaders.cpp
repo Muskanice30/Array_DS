@@ -33,7 +33,7 @@ class Solution{
                 v.push_back(curr_leader);
             }
         }
-        reverse(v.begin(),v.end());
+        reverse(v.begin(),v.end()); //to maintain the order of output.
         return v;
         
     }
